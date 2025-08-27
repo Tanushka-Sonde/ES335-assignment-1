@@ -3,3 +3,11 @@
 
 UCI HAR Dataset/
 Combined/
+.ipynb_checkpoints/
+HAR/__pycache__/
+HAR/.ipynb_checkpoints/
+HAR/Combined/
+HAR/UCI HAR Dataset/
+HAR/human+activity+recognition+using+smartphones/
+HAR/processed_dataset/
+HAR/raw_dataset/

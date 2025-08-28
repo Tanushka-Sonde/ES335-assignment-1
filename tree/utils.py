@@ -18,7 +18,7 @@ def check_ifreal(y: pd.Series) -> bool:
     """
     Check if the given series has real-valued (continuous) output.
     """
-    return not y.dtype == "category" or len(y.unique) >= len(y) // 2  
+    return (not y.dtype == "category") #or len(y.unique()) >= len(y) // 2  
 
 
 def entropy(Y: pd.Series) -> float:
